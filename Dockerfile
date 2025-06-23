@@ -1,6 +1,6 @@
 FROM python:3.9.7-slim-buster
-WORKDIR .
-COPY . .
+WORKDIR /app
+COPY . /app
 
 RUN apt-get update
 RUN apt-get update -y
